@@ -2,7 +2,7 @@
 
 if [[ $# -eq 0 ]]
 then
-  echo "Please provide file input ex: compute-fuel input.txt"
+  echo "Please provide file input ex: calculate-fuel.sh input.txt"
   exit
 fi
 
@@ -15,4 +15,3 @@ while read p; do
 done < "$1"
 
 echo "Total fuel: $totalFuel"
-
